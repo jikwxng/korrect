@@ -5,20 +5,20 @@
 
 **Korrect**은 한국어 텍스트 처리와 맞춤법 검사를 간편하게 수행할 수 있는 자바스크립트 라이브러리입니다. 초성 추출, 조사 선택, 영타/한타 변환 등 한국어 서비스 개발에 꼭 필요한 유틸리티들을 제공합니다.
 
-## 🚀 주요 기능
+## 주요 기능
 
 - **맞춤법 검사**: 문장의 맞춤법을 교정하고, 에러 위치와 교정 제안을 포함한 상세 데이터를 반환합니다.
 - **초성 추출**: 한글 단어에서 초성(ㄱㄴㄷ...)만 깔끔하게 추출합니다.
 - **조사 자동 선택**: 단어의 종성(받침) 여부에 따라 적합한 조사(은/는, 이/가, 을/를)를 자동으로 선택합니다.
 - **영타/한타 변환**: 키보드 입력 실수를 교정하거나 한글을 로마자로 변환하는 기능을 제공합니다.
 
-## 📦 설치
+## 설치
 
 ```bash
 npm install korrect-js
 ```
 
-## 🛠 사용법
+## 사용법
 
 ```javascript
 const korrect = require('korrect-js');
@@ -44,7 +44,7 @@ console.log(korrect.toEn("안녕"));   // "dkssud"
 console.log(korrect.toRoman("나비")); // "nabi"
 ```
 
-## 📖 API 상세
+## API 상세
 
 ### `check(text)`
 네이버 맞춤법 검사기 API를 사용하여 문장을 검사합니다.
@@ -68,7 +68,7 @@ console.log(korrect.toRoman("나비")); // "nabi"
 ### `toEn(word)` / `toKo(word)` / `toRoman(word)`
 - 한글↔영어 키보드 입력 변환 및 로마자 표기법 변환을 수행합니다.
 
-## 📂 프로젝트 구조
+## 프로젝트 구조
 
 ```text
 korrect/
@@ -78,12 +78,12 @@ korrect/
 └── package.json
 ```
 
-## 🔗 링크
+## 링크
 
 - **개발자**: [https://jeeks.my](https://jeeks.my)
 - **GitHub**: [https://github.com/jikwxng/korrect](https://github.com/jikwxng/korrect)
 - **NPM**: [https://www.npmjs.com/package/korrect-js](https://www.npmjs.com/package/korrect-js)
 
-## 📄 라이선스
+## 라이선스
 
 이 프로젝트는 [MIT License](LICENSE)를 따릅니다.
