@@ -1,6 +1,6 @@
 # Korrect 🇰🇷
 
-[![npm version](https://img.shields.io/npm/v/korrect.svg)](https://www.npmjs.com/package/korrect)
+[![npm version](https://img.shields.io/npm/v/korrect-js.svg)](https://www.npmjs.com/package/korrect-js)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 **Korrect**은 한국어 텍스트 처리와 맞춤법 검사를 간편하게 수행할 수 있는 자바스크립트 라이브러리입니다. 초성 추출, 조사 선택, 영타/한타 변환 등 한국어 서비스 개발에 꼭 필요한 유틸리티들을 제공합니다.
@@ -15,13 +15,13 @@
 ## 📦 설치
 
 ```bash
-npm install korrect
+npm install korrect-js
 ```
 
 ## 🛠 사용법
 
 ```javascript
-const korrect = require('korrect');
+const korrect = require('korrect-js');
 
 // 1. 맞춤법 검사 (Async)
 async function checkSpell() {
@@ -82,6 +82,7 @@ korrect/
 
 - **개발자**: [https://jeeks.my](https://jeeks.my)
 - **GitHub**: [https://github.com/jikwxng/korrect](https://github.com/jikwxng/korrect)
+- **NPM**: [https://www.npmjs.com/package/korrect-js](https://www.npmjs.com/package/korrect-js)
 
 ## 📄 라이선스
 
