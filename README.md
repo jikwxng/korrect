@@ -1,5 +1,7 @@
 <p align="center">
+<a href="https://github.com/jikwxng/korrect-js">
   <img src="https://github.com/jikwxng/korrect-js/blob/main/assets/korrect-js.png?raw=true" width="500px">
+  </a>
 </p>
 
 # korrect-js
@@ -7,7 +9,7 @@
 [![npm version](https://img.shields.io/npm/v/korrect-js.svg)](https://www.npmjs.com/package/korrect-js)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**korrect-js**는 한국어 텍스트 처리와 맞춤법 검사를 간편하게 수행할 수 있는 자바스크립트 라이브러리입니다. 초성 추출, 조사 선택, 영타/한타 변환 등 한국어 서비스 개발에 꼭 필요한 유틸리티들을 제공합니다.
+**korrect-js**는 한국어 텍스트 처리와 맞춤법 검사를 간편하게 수행할 수 있는 자바스크립트 라이브러리입니다. **초성 추출**, **조사 선택**, **영타/한타 변환** 등 **한국어 서비스 개발**에 꼭 필요한 유틸리티들을 제공합니다.
 
 ## 주요 기능
 
