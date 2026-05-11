@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/jikwxng/korrect-js/blob/main/assets/korrect-js.png?raw=true" width="500px">
+</p>
+
 # korrect-js
 
 [![npm version](https://img.shields.io/npm/v/korrect-js.svg)](https://www.npmjs.com/package/korrect-js)
